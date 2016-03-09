@@ -20,8 +20,9 @@
 * Chili
 * Chicken Gumbo
 * Spaghetti
-* lemon pepper chicken with asparagus
-* broccoli  with blacken chicken with rice 
+* Lemon pepper chicken with asparagus
+* Broccoli  with blacken chicken with rice 
+* Beef stroganoff recipe
 
 ###Contact
  * Email: jasonsutter87@gmail.com
