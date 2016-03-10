@@ -48,25 +48,39 @@
 		<h2>A page for planning</h2>
 	</div>
 	<div id="Mainimage">
-		<img src="#">
+		<img src="../images/contactus.jpg">
 		<h6> Photo location</h6>
 	</div>
 
 	<h3>Leave me a message</h3>
-	<form>
-	  First name:<br>
-	  <input type="text" name="firstname" value="First Name"><br>
-	  Last name:<br>
-	  <input type="text" name="lastname" value="Last Name"><br>
-	  Email:<br>
-	  <input type="text" name="email" value="Email"><br>
-	  Subject:<br>
-	  <input type="text" name="emailsubject" value="Subject"><br>
-	  Message:<br>
-	  <textarea name="message" rows="10" cols="30">Enter message here</textarea><br>
-	  <input type="submit" value="Submit">
+	<form action="success.html"  method="post">
+ 
+    <div>
+      <label>First Name:</label>
+      <input type="text" name="first name" value="first name">
+    </div>
 
-	</form>
+    <div>
+      <label>Last Name:</label>
+      <input type="text" name="last name" value="last name">
+    </div>
+
+    <div>
+      <label>Subject:</label>
+      <input type="text" name="subject" value="subject">
+    </div>
+
+    <div>
+      <label>Message us here:</label><br>
+      <textarea name="message" rows="10" cols="40">Write something here</textarea>
+    </div>
+    <br>
+    <button type="submit">Send Email</button>
+    
+   
+    
+    
+  </form>
 
 
 
