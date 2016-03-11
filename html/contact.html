@@ -1,17 +1,105 @@
-<!DOCTYPE <html>
+<!DOCTYPE html>
 <head>
-	<meta name="description" keywords="Backpacking, hiking, Meals">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Backpacking trip planning">
+    <meta name="author" content="Jason Sutter">
 	<title>Jasons Backpacking page</title>
+
+	<!-- fix link
+	<link href="css/Out-Hiking.css" rel="stylesheet">
+
+												-->
+
+
+
+
+
 </head>
 
+<style>
 
+
+body {
+    background-color: #f5f5f5;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.navigation {
+	color: white;
+	font-size: 16pt;
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+
+
+
+}
+
+img{
+
+	width: 80%;
+    height: auto;
+}
+
+
+
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+
+#container{
+ 
+ background: #cdcdcd;
+
+
+}
+#title {
+	text-align: center;
+	
+
+
+}
+
+#Mainimage{
+	text-align: center;
+
+}
+
+#footer {
+	text-align: center;
+	padding: 10px;
+
+}
+
+</style>
 
 <!-- Body -->
 <body>
 
 	<!-- Navigation -->
-	<nav>
-		<table>
+<div id="container">
+	<nav class="navigation">
+		<center><table>
 			<tr>
 				<td>
 					<a href="index.html">
@@ -38,55 +126,63 @@
 					</a>
 				</td>
 			</tr>
-		</table>
+		</table></center>
 	</nav>
+	</div>
+	<br>
 	<!-- End Navigation /-->
 	
 	<!-- MainContent -->
+	
+<div id="container">
 	<div id="title">
 		<h1>Welcome to Jason's Contact Page</h1>
 		<h2>A page for planning</h2>
 	</div>
+	</div>
+<div id="container">
 	<div id="Mainimage">
 		<img src="../images/contactus.jpg">
-		<h6> Photo location</h6>
 	</div>
+	</div>
+<div id="container">
+<h3>Leave me a message</h3>
+<form action="success.html"  method="post">
+	 
+	    <div>
+	      <label>First Name:</label>
+	      <input type="text" name="first name" value="first name">
+	    </div>
 
-	<h3>Leave me a message</h3>
-	<form action="success.html"  method="post">
- 
-    <div>
-      <label>First Name:</label>
-      <input type="text" name="first name" value="first name">
-    </div>
+	    <div>
+	      <label>Last Name:</label>
+	      <input type="text" name="last name" value="last name">
+	    </div>
 
-    <div>
-      <label>Last Name:</label>
-      <input type="text" name="last name" value="last name">
-    </div>
+	    <div>
+	      <label>Subject:</label>
+	      <input type="text" name="subject" value="subject">
+	    </div>
 
-    <div>
-      <label>Subject:</label>
-      <input type="text" name="subject" value="subject">
-    </div>
-
-    <div>
-      <label>Message us here:</label><br>
-      <textarea name="message" rows="10" cols="40">Write something here</textarea>
-    </div>
-    <br>
-    <button type="submit">Send Email</button>
-    
+	    <div>
+	      <label>Message us here:</label><br>
+	      <textarea name="message" rows="10" cols="40">Write something here</textarea>
+	    </div>
+	    <br>
+	    <button type="submit">Send Email</button>
+	    
    
     
     
   </form>
+  </div>
 
 
 
 
 	<div id="footer">
 		<footer>Jason Sutter &copy; March 2016!</footer>
+		<footer>Photo Credit <a href="../images/PhotoCredit.txt">Here</a></footer>
 	</div>
 </body>
 </html>

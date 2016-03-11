@@ -22,16 +22,55 @@
 
 body {
     background-color: #f5f5f5;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
-h1 {
-    background-color: #00ff00;
+.navigation {
+	color: white;
+	font-size: 16pt;
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+
+
+
 }
 
-p {
-    background-color: rgb(255,0,255);
+img{
+
+	width: 80%;
+    height: auto;
 }
 
+
+
+
+
+
+
+#container{
+ 
+ background: #cdcdcd;
+
+
+}
+#title {
+	text-align: center;
+	
+
+
+}
+
+#Mainimage{
+	text-align: center;
+
+}
+
+#footer {
+	text-align: center;
+	padding: 10px;
+
+}
 
 </style>
 
@@ -39,8 +78,9 @@ p {
 <body>
 
 	<!-- Navigation -->
-	<nav>
-		<table>
+<div id="container">
+	<nav class="navigation">
+		<center><table>
 			<tr>
 				<td>
 					<a href="index.html">
@@ -67,22 +107,39 @@ p {
 					</a>
 				</td>
 			</tr>
-		</table>
+		</table></center>
 	</nav>
+	</div>
+	<br>
 	<!-- End Navigation /-->
 	
 	<!-- MainContent -->
-	<div id="title">
+	<div id="container">
+		<div id="title">
+		<br>
 		<h1>Welcome to Jason's Backpacking Page</h1>
 		<h2>A page for planning</h2>
+		<br><br>
+		</div>
 	</div>
-	<div id="Mainimage">
-		<img src="../images/Hikers.jpg">
-		<h6> Photo location</h6>
-	</div>
+
+	<div id="container">
+		<div id="title">
+		<img src="../images/Banner.jpg ">
+	</div></div>
+
+	<center>
+		<h5>I really like this site. <a href="http://alltrails.com/">All Trails</a>
+			Its not a Blog site, but it is similar. I like this site becasue it serves a purpose and it gives a group of people to track thier hikes. 
+		</h5>
+
+	</center>
+	
+	
 	
 	<div id="footer">
 		<footer>Jason Sutter &copy; March 2016!</footer>
+		<footer>Photo Credit <a href="../images/PhotoCredit.txt">Here</a></footer>
 	</div>
 </body>
 </html>
