@@ -1,32 +1,74 @@
 body {
-	background-color: #39D9FF;
+	background-color: #397F5F;
 
 }
 
-h1 h2 h3 h4 h5 h6 {
+
+
+
+
+.section h3 {
+    margin: auto;
+    text-align: center;
+    font-style: bold;
+    font-size: 16pt;
+
+}
+
+.section h4 {
+    margin: auto;
+    text-align: center;
+    font-style: bold;
+
+}
+
+.section table {
+    margin:  auto;
+}
+
+.section ul{
+     list-style-type: square;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Georgia', Georgia, sans-serif;
+
+}
+
+h2 {
+    font-family: 'Georgia', Georgia, sans-serif;
+    font-style: italic;
+}
+
+
+
+h3 h4 h5 h6 textarea footer .navigation {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container {
 	padding: 15px;
-	background-color: #86E8FF;
+	background-color: #72FFBE;
 
 }
 
-img{
-	width: 100%;
-    height: auto;
+
+#main_content img {
+   width: 100%;
+   height: auto;
 }
+
 
 #title {
 	text-align: center;
 }
 
 
-.navigation{
-	margin: auto;
-
-}
 
 #form h3 {
 	text-align: center;
@@ -47,28 +89,32 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #72FFBE;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #72FFBE;
 }
 
 textarea{
 	width: 100%;
-    /*padding: 12px 20px;*/
     margin: 8px 0;
     display: inline-block;
+    font-weight: bold;
 }
 
 #form {
@@ -79,5 +125,178 @@ textarea{
 
 .footer {
 	text-align: center;
+    font-weight: bold;
 
+}
+
+
+#food {
+    width: 100%;  
+}
+
+#food tr td{
+    border-bottom: 3px solid #c6c5c7;
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    /*width: 100%;*/
+    font-size: 16pt;
+
+
+    
+}
+
+#index_link {
+    text-align: center;
+}
+
+
+#food img {
+    max-width: 200px;
+    height: auto;
+
+}
+#food td:hover {background-color: #c6c5c7}
+#food a:hover {color: #397F5F}
+#food a {
+    color: #137F4E;
+}
+
+
+a:visited {
+    color: #FF2900;
+}
+
+#trips tr td{
+    border-bottom: 3px solid #c6c5c7;
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    font-size: 16pt;
+
+    
+}
+
+
+
+
+#trips td:hover {background-color: #c6c5c7}
+#trips a:hover {color: #397F5F}
+#trips a {
+    color: #137F4E;
+}
+
+#meals tr td{
+    border-bottom: 3px solid #c6c5c7;
+    
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    /*width: 80%;*/
+    font-size: 16pt;
+
+
+
+    
+}
+
+
+.meal_img {
+    width: 100%;
+    height: auto;
+}
+
+.meal_img ul{
+    font-weight: bold;
+    list-style-type: square;
+}
+
+.meal_img h3{
+    text-align: center;
+    font-size: 16pt;
+}
+
+#meals img {
+    max-width: 200px;
+    height: auto;
+
+}
+#meals td:hover {background-color: #c6c5c7}
+#meals a:hover {color: #397F5F}
+#meals a {
+    color: #137F4E;
+}
+
+
+
+
+
+
+
+/*____________________________________________________________*/
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #72FFBE;
+    color: black;
+    font-weight: bold;
+}
+
+/* Float the list items side by side */
+ul.navigation li {float: left;}
+
+/* Style the links inside the list items */
+ul.navigation li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Change background color of links on hover */
+ul.navigation li a:hover {
+    background-color: #397F5F;
+    color: #72FFBE;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.navigation li.icon {display: none;}
+
+
+
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.navigation li:not(:first-child) {display: none;}
+  ul.navigation li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.navigation.responsive {position: relative;}
+  ul.navigation.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.navigation.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.navigation.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }

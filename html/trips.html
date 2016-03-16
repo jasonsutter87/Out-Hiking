@@ -6,8 +6,8 @@
     <meta name="author" content="Jason Sutter">
 	<title>Jasons Backpacking page</title>
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<script src="../scripts/responsive.js"></script>
 
-	
 
 </head>
 
@@ -17,40 +17,21 @@
 <body>
 
 	<!-- Navigation -->
-	<div class="container">
-		<nav>
-			<table class="navigation">
-				<tr>
-					<td>
-						<a href="index.html">
-							<h4>Home</h4>
-						</a>
-					</td>
-					<td>
-						<a href="trips.html">
-							<h4>Trips</h4>
-						</a>
-					</td>
-					<td>
-						<a href="dehydration.html">
-							<h4>Dehydration</h4>
-					</td>
-					<td>
-						<a href="meals.html">
-							<h4>Meals</h4>
-						</a>
-					</td>
-					<td>
-						<a href="contact.html">
-							<h4>Contact</h4>
-						</a>
-					</td>
-				</tr>
-			</table>
-		</nav>
-	</div>
-	<br>
+	<nav>
+		<ul class="navigation">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="trips.html">Trips</a></li>
+		  <li><a href="dehydration.html">Dehydration</a></li>
+		  <li><a href="meals.html">Meals</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		  <li class="icon">
+		    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+		  </li>
+		</ul>
+	</nav>
 	<!-- End Navigation /-->
+	<br>
+	
 		
 	<!-- MainContent -->
 	<div class="container">
@@ -67,18 +48,37 @@
 	</div>
 
 
-	<div id="container">
-		<div>
-			<ul>
-				<li><a href="tahoerim.html">Tahoe Rim</a></li>
-				<li><a href="henrycoe.html">Henry Coe Mississippi Lake</a></li>
-			</ul>
-
+	<div class="container">
+		<div id="form">
+			<div id="trips">
+				<table>
+					<tr>
+						<th>Trip</th>
+						<th>Miles</th>
+						<th>Days</th>
+					</tr>
+					<tr>
+						<td><a href="tahoerim.html">Tahoe Rim</a></td>
+						<td>165</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<td><a href="henrycoe.html">Henry Coe Mississippi Lake</a></td>
+						<td>31</td>
+						<td>3</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</div>
+		
 
-	<div id="container">
-		<div id="footer">
+
+
+
+
+	<div class="container">
+		<div class="footer">
 			<footer>Jason Sutter &copy; March 2016!</footer>
 			<footer>Photo Credit <a href="../images/PhotoCredit.txt">Here</a></footer>
 		</div>
