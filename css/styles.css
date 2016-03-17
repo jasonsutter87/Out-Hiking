@@ -289,4 +289,12 @@ ul.navigation li.icon {display: none;}
 
   }
 
+  tr  li {
+    font-size: 9.5pt;
+    width: 56%;
+    
+    text-align: left;
+
+  }
+
 }
