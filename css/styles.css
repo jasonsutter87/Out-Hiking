@@ -4,9 +4,6 @@ body {
 }
 
 
-
-
-
 .section h3 {
     margin: auto;
     text-align: center;
@@ -210,6 +207,7 @@ a:visited {
 .meal_img ul{
     font-weight: bold;
     list-style-type: square;
+    
 }
 
 .meal_img h3{
@@ -230,13 +228,6 @@ a:visited {
 
 
 
-
-
-
-
-/*____________________________________________________________*/
-
-/* Remove margins and padding from the list, and add a black background color */
 ul.navigation {
     list-style-type: none;
     margin: 0;
@@ -247,10 +238,8 @@ ul.navigation {
     font-weight: bold;
 }
 
-/* Float the list items side by side */
 ul.navigation li {float: left;}
 
-/* Style the links inside the list items */
 ul.navigation li a {
     display: inline-block;
     color: black;
@@ -262,19 +251,15 @@ ul.navigation li a {
     font-weight: bold;
 }
 
-/* Change background color of links on hover */
 ul.navigation li a:hover {
     background-color: #397F5F;
     color: #72FFBE;
 }
 
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.navigation li.icon {display: none;}
 
 
 
-
-/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
   ul.navigation li:not(:first-child) {display: none;}
   ul.navigation li.icon {
@@ -283,7 +268,6 @@ ul.navigation li.icon {display: none;}
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 @media screen and (max-width:680px) {
   ul.navigation.responsive {position: relative;}
   ul.navigation.responsive li.icon {
@@ -299,4 +283,11 @@ ul.navigation li.icon {display: none;}
     display: block;
     text-align: left;
   }
+
+  a {
+    font-size: 9.5pt;
+
+  }
+
+
 }
